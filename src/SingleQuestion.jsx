@@ -10,7 +10,7 @@ function SingleQuestion({ id, question, answer }) {
   }
 
   return (
-    <div className='container'>
+    <div>
       <h4 className='single-question'>
         {`${id}. `}
         {question}
