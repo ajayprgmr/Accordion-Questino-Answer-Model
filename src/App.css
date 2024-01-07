@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.single-question {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.btn {
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+
+.answer {
+  background-color: aliceblue;
+  margin-top: -40px;
+  width: 500px;
+  padding: 20px;
+}
